@@ -1,8 +1,7 @@
 .wrapper {
   display: grid;
-  background: gray;
+  background: #333;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 200x;
   max-width: 960px;
   gap: 5px;
 }
@@ -15,6 +14,7 @@ header {
 
 aside {
   border: 3px solid red;
+  padding: 20px;
 }
 
 footer {
@@ -36,4 +36,5 @@ main {
 
 body {
   text-align: center;
+  color: white;
 }
